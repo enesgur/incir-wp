@@ -34,7 +34,7 @@ class marked_post extends WP_Widget
         $posts = isset($instance['posts']) ? $this->post_control($instance['posts']) : '';
         $label = isset($instance['label']) ? $instance['label'] : '';
         echo '<p>';
-        echo '<label for="' . $this->get_field_id('label') . '">' . __('Title') . '</label>';
+        echo '<label for="' . $this->get_field_id('label') . '">' . __('Title', 'incir') . '</label>';
         echo '<input type="text" id="' . $this->get_field_id('label') . '" class="widefat" name="' . $this->get_field_name('label') . '" value="' . $label . '" />';
         echo '</p>';
         echo '<p style="position: relative;">';

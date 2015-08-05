@@ -32,7 +32,7 @@ get_header();
                                         <li><span class="fi-list"></span><?php the_category(' '); ?></li>
 
                                         <li><span
-                                                class="fi-comment"></span><?php comments_number(__('no comment'), '1', '%'); ?>
+                                                class="fi-comment"></span><?php comments_number(__('no comment', 'incir'), '1', '%'); ?>
                                         </li>
                                     </ul>
                                 </div>

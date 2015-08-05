@@ -19,10 +19,10 @@ class last_comments extends WP_Widget
 
     public function form($instance)
     {
-        $label = isset($instance['label']) ? $instance['label'] : __('Last Comments');
+        $label = isset($instance['label']) ? $instance['label'] : __('Last Comments', 'incir');
         $value = isset($instance['last_comment']) ? $instance['last_comment'] : 5;
         echo '<p>';
-        echo '<label for="' . $this->get_field_id('label') . '">' . __('Title') . '</label>';
+        echo '<label for="' . $this->get_field_id('label') . '">' . __('Title', 'incir') . '</label>';
         echo '<input type="text" id="' . $this->get_field_id('label') . '" class="widefat" name="' . $this->get_field_name('label') . '" value="' . $label . '" />';
         echo '</p>';
 

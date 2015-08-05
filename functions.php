@@ -42,7 +42,7 @@ function incir_wp_title($title, $sep)
 
     // Add a page number if necessary.
     if (($paged >= 2 || $page >= 2) && !is_404())
-        $title = "$title $sep " . sprintf(__('Page %s'), max($paged, $page));
+        $title = "$title $sep " . sprintf(__('Page %s', 'incir'), max($paged, $page));
 
     return $title;
 }
@@ -308,7 +308,7 @@ function incir_search_form($form)
     $form = '<form role="search" method="get" id="searchform" class="searchform" action="' . home_url('/') . '" >
                 <div class="column large-12 small-12 medium-12 search-form">
                   <span class="icon"><i class="fi-magnifying-glass"></i></span>
-                  <input type="search" id="search" value="' . get_search_query() . '" name="s" placeholder="' . __('Search') . '..." />
+                  <input type="search" id="search" value="' . get_search_query() . '" name="s" placeholder="' . __('Search', 'incir') . '..." />
                 </div>
             </form>';
 
@@ -352,7 +352,7 @@ function incir_comment_list($comment, $args, $depth)
     $output .= '</div>';
     if (!is_null(get_edit_comment_link())) {
         $output .= '<div class="edit">';
-        $output .= sprintf('<a href="%s">' . __('Edit') . '</a>', get_edit_comment_link($comment));
+        $output .= sprintf('<a href="%s">' . __('Edit', 'incir') . '</a>', get_edit_comment_link($comment));
         $output .= '</div>';
     }
     $output .= '</div>';
@@ -370,8 +370,8 @@ function incir_404_form()
 {
     $form = '<form role="erro-404-search" method="get" id="error-404-searchform" class="error-404-searchform" action="' . home_url('/') . '" >
                 <div class="search-form collapse">
-                  <input type="search" id="search" value="' . get_search_query() . '" name="s" placeholder="' . __('Search') . '..." />
-                  <input type="submit" value="' . __("Submit") . '" class="button postfix" />
+                  <input type="search" id="search" value="' . get_search_query() . '" name="s" placeholder="' . __('Search', 'incir') . '..." />
+                  <input type="submit" value="' . __("Submit", 'incir') . '" class="button postfix" />
                 </div>
             </form>';
     return $form;
@@ -641,7 +641,7 @@ class incir_Customize
     public static function footer($wp_customize)
     {
         $wp_customize->add_section('incir_footer', array(
-            'title' => __('Footer'),
+            'title' => __('Footer', 'incir'),
         ));
 
         $wp_customize->add_setting('incir_footer_left', array(
@@ -672,7 +672,7 @@ class incir_Customize
                 $wp_customize,
                 'incir_footer_right',
                 array(
-                    'label' => __('Footer right position'),
+                    'label' => __('Footer right position', 'incir'),
                     'section' => 'incir_footer',
                     'settings' => 'incir_footer_right',
                     'type' => 'textarea',
@@ -709,7 +709,7 @@ class incir_Customize
                 $wp_customize,
                 'incir_social_facebook',
                 array(
-                    'label' => __('Facebook'),
+                    'label' => __('Facebook', 'incir'),
                     'section' => 'incir_social_share',
                     'settings' => 'incir_social_facebook',
                     'type' => 'checkbox',
@@ -722,7 +722,7 @@ class incir_Customize
                 $wp_customize,
                 'incir_social_twitter',
                 array(
-                    'label' => __('Twitter'),
+                    'label' => __('Twitter', 'incir'),
                     'section' => 'incir_social_share',
                     'settings' => 'incir_social_twitter',
                     'type' => 'checkbox',
@@ -735,7 +735,7 @@ class incir_Customize
                 $wp_customize,
                 'incir_social_gplus',
                 array(
-                    'label' => __('Google+'),
+                    'label' => __('Google+', 'incir'),
                     'section' => 'incir_social_share',
                     'settings' => 'incir_social_gplus',
                     'type' => 'checkbox',
@@ -748,7 +748,7 @@ class incir_Customize
                 $wp_customize,
                 'incir_social_linkedin',
                 array(
-                    'label' => __('Linkedin'),
+                    'label' => __('Linkedin', 'incir'),
                     'section' => 'incir_social_share',
                     'settings' => 'incir_social_linkedin',
                     'type' => 'checkbox',
@@ -761,7 +761,7 @@ class incir_Customize
                 $wp_customize,
                 'incir_social_pinterest',
                 array(
-                    'label' => __('Pinterest'),
+                    'label' => __('Pinterest', 'incir'),
                     'section' => 'incir_social_share',
                     'settings' => 'incir_social_pinterest',
                     'type' => 'checkbox',
@@ -775,4 +775,3 @@ class incir_Customize
 add_action('customize_register', array('incir_Customize', 'layout'));
 add_action('customize_register', array('incir_Customize', 'footer'));
 add_action('customize_register', array('incir_Customize', 'social_share'));
-
