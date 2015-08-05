@@ -1,0 +1,35 @@
+div.incir-marked-list {
+  li {
+    list-style: none;
+    display: block;
+    cursor: pointer;
+    background: #fafafa;
+    border: 1px solid #e5e5e5;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .04);
+    -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, .04);
+    -o-box-shadow: 0 1px 1px rgba(0, 0, 0, .04);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .04);
+    color: #222222;
+    &:hover {
+      border-color: #BABABA;
+    }
+  }
+}
+
+div.incir-marked-post {
+  @extend div.incir-marked-list;
+  li {
+    background: #E0E0E0;
+    &:hover {
+      background: #EA7C7C;
+      color: #fafafa;
+    }
+  }
+}
+
+input.incir-marked-post + span.input.spinner {
+  display: inline;
+  position: absolute;
+  right: 0px;
+  bottom: 3px;
+}

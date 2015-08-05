@@ -1,0 +1,220 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: incir\n"
+"POT-Creation-Date: 2015-05-30 20:55+0200\n"
+"PO-Revision-Date: 2015-05-30 21:00+0200\n"
+"Last-Translator: \n"
+"Language-Team: incir <support@incirtheme.com>\n"
+"Language: tr_TR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.1\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _e;__\n"
+
+#: 404-full.php:8 404.php:8
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Oops! Bu sayfayı bulamadık."
+
+#: 404-full.php:10 404.php:10
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr "Görünüşe göre aranan şey burada değil. Yeniden aramak ister misin?"
+
+#: archive-full.php:33 archive.php:33 category-full.php:31 category.php:31
+#: page-front-1.php:28 page-front-2.php:28 page-front-3.php:28
+#: search-full.php:31 search.php:31 tag-full.php:31 tag.php:31
+msgid "Read More"
+msgstr "Devamını Oku"
+
+#: archive-full.php:99 archive.php:99 category-full.php:96 category.php:96
+#: search-full.php:96 search.php:96 tag-full.php:96 tag.php:96
+msgid "Sorry, we couldn't find any article"
+msgstr "Üzgünüz, herhangi bir içerik bulunamadı"
+
+#: category-full.php:9 category.php:9
+#, php-format
+msgid "Category Archives: %s"
+msgstr "Kategori Arşivi: %s"
+
+#: comments.php:24
+msgid "Older Comments"
+msgstr "Önceki Yorumlar"
+
+#: comments.php:28
+msgid "Newer Comments"
+msgstr "Son Yorumlar"
+
+#: functions.php:45
+#, php-format
+msgid "Page %s"
+msgstr "Sayfa %s"
+
+#: functions.php:260
+msgid "Sidebar"
+msgstr "Kenar Çubuğu"
+
+#: functions.php:311 functions.php:373
+msgid "Search"
+msgstr "Ara"
+
+#: functions.php:329
+msgid "Your comment is awaiting moderation."
+msgstr "Yorumunuz onay bekliyor."
+
+#: functions.php:355
+msgid "Edit"
+msgstr "Düzenle"
+
+#: functions.php:374
+msgid "Submit"
+msgstr "Gönder"
+
+#: functions.php:470
+msgid "Search Page"
+msgstr "Arama Sayfası"
+
+#: functions.php:483
+msgid "Template of the searching page?"
+msgstr "Arama sayfasının şablonu?"
+
+#: functions.php:488 functions.php:517 functions.php:546 functions.php:575
+#: functions.php:604 functions.php:633
+msgid "Sidebar View"
+msgstr "Yan Kenarlı"
+
+#: functions.php:489
+msgid "Full Width View"
+msgstr "Tam Genişlik"
+
+#: functions.php:499
+msgid "Category Page"
+msgstr "Kategori Sayfası"
+
+#: functions.php:512
+msgid "Template of the category page"
+msgstr "Kategori sayfasının şablonu?"
+
+#: functions.php:518 functions.php:547 functions.php:576 functions.php:605
+#: functions.php:634
+msgid "Full Width"
+msgstr "Tam Genişlik"
+
+#: functions.php:528
+msgid "Tag Page"
+msgstr "Etiket Sayfası"
+
+#: functions.php:541
+msgid "Template of the tag page"
+msgstr "Etiket sayfasının şablonu?"
+
+#: functions.php:557
+msgid "404 Page"
+msgstr "404 sayfası"
+
+#: functions.php:570
+msgid "Template of the 404 page"
+msgstr "404 sayfasının şablonu?"
+
+#: functions.php:586
+msgid "Archive Page"
+msgstr "Arşiv Sayfası"
+
+#: functions.php:599
+msgid "Template of the archive page"
+msgstr "Arşiv sayfasının şablonu?"
+
+#: functions.php:615
+msgid "Single Page"
+msgstr "İçerik sayfası"
+
+#: functions.php:628
+msgid "Template of the single page"
+msgstr "İçerik sayfasının şablonu"
+
+#: functions.php:644
+msgid "Footer"
+msgstr "Altkısım"
+
+#: functions.php:662
+msgid "Footer left position"
+msgstr "Alt alan sol tarafı"
+
+#: functions.php:675
+msgid "Footer right position"
+msgstr "Alt alan sağ tarafı"
+
+#: functions.php:688
+msgid "Social Share"
+msgstr "Sosyal Paylaşım"
+
+#: functions.php:712
+msgid "Facebook"
+msgstr "Facebook"
+
+#: functions.php:725
+msgid "Twitter"
+msgstr "Twitter"
+
+#: functions.php:738
+msgid "Google+"
+msgstr "Google+"
+
+#: functions.php:751
+msgid "Linkedin"
+msgstr "Linkedin"
+
+#: functions.php:764
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: page.php:33 single-full.php:35 single.php:35
+msgid "no comment"
+msgstr "yorum yok"
+
+#: search-full.php:9 search.php:9
+#, php-format
+msgid "Search Results for: %s"
+msgstr "%s için Arama Sonuçları"
+
+#: tag-full.php:9 tag.php:9
+#, php-format
+msgid "Tag Archives: %s"
+msgstr "Etiket Arşivi: %s"
+
+#: widgets/last_comments.php:8
+msgid "Recent comments show the desired amount."
+msgstr "Arzu edilen miktarda son yorum gösterilir."
+
+#: widgets/last_comments.php:9
+msgid "Recent Comments"
+msgstr "Önceki Yorumlar"
+
+#: widgets/last_comments.php:22
+msgid "Last Comments"
+msgstr "Son Yorumlar"
+
+#: widgets/last_comments.php:25 widgets/marked_post.php:37
+msgid "Title"
+msgstr "Başlık"
+
+#: widgets/last_comments.php:30
+msgid "The number of comments to be displayed."
+msgstr "Görüntülenecek yorum sayısını."
+
+#: widgets/marked_post.php:10
+msgid "Show the selected contents in the sidebar."
+msgstr "Seçilen içerikler yan kolonda gösterilir."
+
+#: widgets/marked_post.php:11
+msgid "Marked Post"
+msgstr "Seçilen İçerikler"
+
+#: widgets/marked_post.php:41
+msgid "Search the post"
+msgstr "İçeriklerde ara"
+
+#~ msgid "Category"
+#~ msgstr "Kategori"

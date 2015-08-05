@@ -1,0 +1,27 @@
+div.incir-marked-list li, div.incir-marked-post li {
+  list-style: none;
+  display: block;
+  cursor: pointer;
+  background: #fafafa;
+  border: 1px solid #e5e5e5;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+  -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+  -o-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+  color: #222222; }
+  div.incir-marked-list li:hover, div.incir-marked-post li:hover {
+    border-color: #BABABA; }
+
+div.incir-marked-post li {
+  background: #E0E0E0; }
+  div.incir-marked-post li:hover {
+    background: #EA7C7C;
+    color: #fafafa; }
+
+input.incir-marked-post + span.input.spinner {
+  display: inline;
+  position: absolute;
+  right: 0px;
+  bottom: 3px; }
+
+/*# sourceMappingURL=marked_post.css.map */

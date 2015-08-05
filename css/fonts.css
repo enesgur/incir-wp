@@ -1,0 +1,36 @@
+@import url('foundation-icons.css');
+
+@font-face {
+    font-family: 'Arvo';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Arvo'), url(../font/arvo.woff2) format('woff2'), url(../font/arvo.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'Muli';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Muli'), url(../font/muli.woff2) format('woff2'), url(../font/muli.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'Play';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Play'), url(../font/play.woff2) format('woff2'), url(../font/play.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Noto Sans'), local('NotoSans'), url(../font/noto-sans.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Noto Sans Bold'), local('NotoSans-Bold'), url(../font/noto-sans-bold.woff) format('woff');
+}
